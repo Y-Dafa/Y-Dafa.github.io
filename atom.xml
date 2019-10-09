@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-27T03:16:32.903Z</updated>
+  <updated>2019-10-09T08:47:48.903Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,302 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Nginx和Xshell的使用</title>
+    <link href="http://yoursite.com/2019/10/09/nginx%E5%92%8Cxshell%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2019/10/09/nginx和xshell的使用/</id>
+    <published>2019-10-09T07:48:58.446Z</published>
+    <updated>2019-10-09T08:47:48.903Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;服务器部署静态资源（通过nginx反向代理）&quot;&gt;&lt;a href=&quot;#服务器部署静态资源（通过nginx反向代理）&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="服务器" scheme="http://yoursite.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="服务器" scheme="http://yoursite.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>百度地图JavaScript API学习（二）</title>
+    <link href="http://yoursite.com/2019/09/29/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE%E4%BA%8C/"/>
+    <id>http://yoursite.com/2019/09/29/百度地图二/</id>
+    <published>2019-09-29T07:40:39.029Z</published>
+    <updated>2019-09-29T09:06:22.086Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;移动游标的圆形距离检索&quot;&gt;&lt;a href=&quot;#移动游标的圆形距离检索&quot; class=&quot;headerlink&quot; title=&quot;移动游标的圆形距离检索&quot;&gt;&lt;/a&gt;移动游标的圆形距离检索&lt;/h3&gt;&lt;p&gt;搜索某个店铺会有默认5公里的圆形检索区域，同时显示一个可移动的游标，点击“修改距离”标签即可输入距离查询。查询时移除之前的圆形覆盖物，获取游标位置，以该点为中心画新的圆形覆盖物。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Vue" scheme="http://yoursite.com/categories/Vue/"/>
+    
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue中使用loadsh实现实时检索，使用箭头函数报错</title>
+    <link href="http://yoursite.com/2019/09/19/vue%E4%B8%AD%E4%BD%BF%E7%94%A8loadsh%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6%E6%A3%80%E7%B4%A2%EF%BC%8C%E4%BD%BF%E7%94%A8%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E6%8A%A5%E9%94%99/"/>
+    <id>http://yoursite.com/2019/09/19/vue中使用loadsh实现实时检索，使用箭头函数报错/</id>
+    <published>2019-09-19T03:43:48.918Z</published>
+    <updated>2019-09-19T03:52:59.255Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用lodash插件实现input的实时检索，报错&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用npm下载ladash依赖后，引入lodash&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; _ &lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;lodash&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Vue" scheme="http://yoursite.com/categories/Vue/"/>
+    
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>双击和单击冲突问题</title>
+    <link href="http://yoursite.com/2019/09/16/%E5%8F%8C%E5%87%BB%E5%92%8C%E5%8D%95%E5%87%BB%E5%86%B2%E7%AA%81/"/>
+    <id>http://yoursite.com/2019/09/16/双击和单击冲突/</id>
+    <published>2019-09-16T11:18:49.943Z</published>
+    <updated>2019-09-16T11:22:14.210Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;同一个元素上，绑定多种事件类型，比较常见的是单击事件和一些鼠标事件，一般而言影响不大。但是如果同时绑定单击事件和双击事件呢？&lt;/p&gt;
+&lt;p&gt;单击事件执行过程：mousedown, mouseup, click。双击事件的执行过程:mousedown, mouseup, click; mousedown, mouseup, click。仔细看，其实双击事件就是执行了两次单击事件，那这种情况下，怎么才能避免触发单击事件呢？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Js" scheme="http://yoursite.com/categories/Js/"/>
+    
+    
+      <category term="Js" scheme="http://yoursite.com/tags/Js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>百度地图JavaScript API学习（一）</title>
+    <link href="http://yoursite.com/2019/09/05/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEJavaScript%20API%EF%BC%881%EF%BC%89/"/>
+    <id>http://yoursite.com/2019/09/05/百度地图JavaScript API（1）/</id>
+    <published>2019-09-05T08:01:29.995Z</published>
+    <updated>2019-09-29T09:04:10.496Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;百度地图JavaScript-API文档&quot;&gt;&lt;a href=&quot;#百度地图JavaScript-API文档&quot; class=&quot;headerlink&quot; title=&quot;百度地图JavaScript API文档&quot;&gt;&lt;/a&gt;百度地图JavaScript API文档&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;简介&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;官方网址&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://lbsyun.baidu.com/index.php?title=jspopular&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://lbsyun.baidu.com/index.php?title=jspopular&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;百度地图JavaScript API 是一套由JavaScript语言编写的应用程序接口，是百度目前为止功能最齐全的有关地图的网站。他能够帮助您在网站中构建功能丰富、交互性强的地图应用，包含了构建地图基本功能的各种接口，提供了诸如本地搜索、路线规划等数据服务。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Vue" scheme="http://yoursite.com/categories/Vue/"/>
+    
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>React-Router</title>
+    <link href="http://yoursite.com/2019/09/05/react-router/"/>
+    <id>http://yoursite.com/2019/09/05/react-router/</id>
+    <published>2019-09-05T02:48:37.279Z</published>
+    <updated>2019-09-05T06:15:27.658Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;概念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;React Router是一个基于React之上的强大路由库，它可以让你向应用中快速的添加视图和数据流，同时保持页面与URL间的同步。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://yoursite.com/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>状态提升</title>
+    <link href="http://yoursite.com/2019/09/04/%E7%8A%B6%E6%80%81%E6%8F%90%E5%8D%87/"/>
+    <id>http://yoursite.com/2019/09/04/状态提升/</id>
+    <published>2019-09-04T05:56:07.839Z</published>
+    <updated>2019-09-05T02:00:17.547Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;通常，多个组件需要反应相同的变化数据，这时我们建议将共享状态提升到最近的共同父组件中去，实现共享 state。这就是所谓的“状态提升”。&lt;/p&gt;
+&lt;p&gt;例子：&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://yoursite.com/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>列表&amp;表单</title>
+    <link href="http://yoursite.com/2019/09/04/react-%E5%88%97%E8%A1%A8&amp;%E8%A1%A8%E5%8D%95/"/>
+    <id>http://yoursite.com/2019/09/04/react-列表&amp;表单/</id>
+    <published>2019-09-04T01:40:53.486Z</published>
+    <updated>2019-09-04T03:30:13.165Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;基础列表组件&quot;&gt;&lt;a href=&quot;#基础列表组件&quot; class=&quot;headerlink&quot; title=&quot;基础列表组件&quot;&gt;&lt;/a&gt;基础列表组件&lt;/h3&gt;&lt;p&gt;通过使用 {} 在 JSX 内构建一个元素集合,使用 Javascript 中的 map() 方法来遍历
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://yoursite.com/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>React事件处理</title>
+    <link href="http://yoursite.com/2019/09/03/react%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86/"/>
+    <id>http://yoursite.com/2019/09/03/react事件处理/</id>
+    <published>2019-09-03T07:30:15.180Z</published>
+    <updated>2019-09-03T09:34:38.157Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;React 事件的命名采用小驼峰式（camelCase），而不是纯小写。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用 JSX 语法时你需要传入一个函数作为事件处理函数，而不是一个字符串。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://yoursite.com/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>State学习</title>
+    <link href="http://yoursite.com/2019/09/03/react-state/"/>
+    <id>http://yoursite.com/2019/09/03/react-state/</id>
+    <published>2019-09-03T06:08:14.209Z</published>
+    <updated>2019-09-03T07:20:01.385Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;State-和生命周期&quot;&gt;&lt;a href=&quot;#State-和生命周期&quot; class=&quot;headerlink&quot; title=&quot;State 和生命周期&quot;&gt;&lt;/a&gt;State
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://yoursite.com/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>React组件学习</title>
+    <link href="http://yoursite.com/2019/09/03/react%E7%BB%84%E4%BB%B6/"/>
+    <id>http://yoursite.com/2019/09/03/react组件/</id>
+    <published>2019-09-03T03:06:43.020Z</published>
+    <updated>2019-09-05T02:06:12.994Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;组件，类似于JavaScript函数，它接受任意的入参（即“props”），并返回用于描述页面展示内容的React元素。&lt;/p&gt;
+&lt;h3 id=&quot;函数组件与class组件&quot;&gt;&lt;a href=&quot;#函数组件与class组件&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="react" scheme="http://yoursite.com/categories/react/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
     <title>vuex学习</title>
     <link href="http://yoursite.com/2019/08/27/vuex%E5%AE%9E%E6%88%98%E5%AD%A6%E4%B9%A0/"/>
     <id>http://yoursite.com/2019/08/27/vuex实战学习/</id>
     <published>2019-08-27T03:12:47.403Z</published>
-    <updated>2019-08-27T03:16:32.903Z</updated>
+    <updated>2019-09-03T09:24:39.621Z</updated>
     
     <summary type="html">
     
@@ -102,7 +393,7 @@
     <link href="http://yoursite.com/2019/08/27/vue%E4%B8%AD%E4%BD%BF%E7%94%A8mock/"/>
     <id>http://yoursite.com/2019/08/27/vue中使用mock/</id>
     <published>2019-08-27T02:54:32.645Z</published>
-    <updated>2019-08-27T02:55:54.902Z</updated>
+    <updated>2019-09-19T03:52:52.843Z</updated>
     
     <summary type="html">
     
@@ -191,15 +482,21 @@
   </entry>
   
   <entry>
-    <title>react学习（一）</title>
-    <link href="http://yoursite.com/2019/08/26/react%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://yoursite.com/2019/08/26/react学习/</id>
+    <title>DvaJs学习</title>
+    <link href="http://yoursite.com/2019/08/26/react-dva/"/>
+    <id>http://yoursite.com/2019/08/26/react-dva/</id>
     <published>2019-08-26T11:20:55.127Z</published>
-    <updated>2019-08-27T02:11:27.365Z</updated>
+    <updated>2019-09-04T01:12:44.084Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      
+      
+        
+        
+          &lt;h3 id=&quot;Dva-学习&quot;&gt;&lt;a href=&quot;#Dva-学习&quot; class=&quot;headerlink&quot; title=&quot;Dva 学习&quot;&gt;&lt;/a&gt;Dva
+        
+      
     
     </summary>
     

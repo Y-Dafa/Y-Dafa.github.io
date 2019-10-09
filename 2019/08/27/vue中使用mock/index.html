@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="拾锦">
 <meta property="og:description" content="vue中使用mockMock.js 是一个模拟数据生成器，利用它，可以拦截ajax请求，直接模拟返回数据，这样前后端只要约定好数据格式，前端就不需要依赖后端的接口，可以直接使用模拟的数据了。这里介绍在Vue工程中使用Mockjs。在用mock进行假数据模拟时，不同模块可能会用到相同模块的mock，为了对mock同样较好的工程化管理，公用的mock会写在index里，而各自模块会单独创建文件。  安">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-27T02:55:54.902Z">
+<meta property="og:updated_time" content="2019-09-19T03:52:52.843Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vue学习（三）">
 <meta name="twitter:description" content="vue中使用mockMock.js 是一个模拟数据生成器，利用它，可以拦截ajax请求，直接模拟返回数据，这样前后端只要约定好数据格式，前端就不需要依赖后端的接口，可以直接使用模拟的数据了。这里介绍在Vue工程中使用Mockjs。在用mock进行假数据模拟时，不同模块可能会用到相同模块的mock，为了对mock同样较好的工程化管理，公用的mock会写在index里，而各自模块会单独创建文件。  安">
@@ -383,6 +383,7 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save-dev mockjs</span><br></pre></td></tr></table></figure>
 
 <a id="more"></a>
+
 <p>index.js内容</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Mock <span class="keyword">from</span> <span class="string">"mockjs"</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; createMock &#125; <span class="keyword">from</span> <span class="string">"./utils"</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> User <span class="keyword">from</span> <span class="string">"./modules/user"</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 设置所有ajax请求的超时时间，模拟网络传输耗时</span></span><br><span class="line">Mock.setup(&#123;</span><br><span class="line">  timeout: <span class="number">2000</span></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">createMock(Mock, User);</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> Mock;</span><br></pre></td></tr></table></figure>
 
@@ -572,7 +573,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -583,7 +584,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -594,7 +595,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
