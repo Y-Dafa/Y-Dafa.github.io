@@ -375,46 +375,15 @@
 
       
         
-          
-            <h3 id="服务器部署静态资源（通过nginx反向代理）"><a href="#服务器部署静态资源（通过nginx反向代理）" class="headerlink" title="服务器部署静态资源（通过nginx反向代理）"></a>服务器部署静态资源（通过nginx反向代理）</h3><p>此处使用xshell与xftp组合连接本地与服务器，下载、安装xshell，xftp：</p>
+          <h3 id="服务器部署静态资源（通过nginx反向代理）"><a href="#服务器部署静态资源（通过nginx反向代理）" class="headerlink" title="服务器部署静态资源（通过nginx反向代理）"></a>服务器部署静态资源（通过nginx反向代理）</h3><p>此处使用xshell与xftp组合连接本地与服务器，下载、安装xshell，xftp：</p>
 <p><a href="https://www.netsarang.com/zh/xshell/" target="_blank" rel="noopener">https://www.netsarang.com/zh/xshell/</a></p>
-<p>这两个为付费软件，如果是自己使用可以下载破解版或选择家庭和学校用户的免费授权版。<br>下载后进行一键式安装。</p>
-<ol>
-<li>打开xshell创建连接：</li>
-</ol>
-<p><img src="./img/xshell.png" alt="图片"></p>
-<p>填写好消息后点击连接。</p>
-<ol start="2">
-<li>打开Xftp</li>
-</ol>
-<p><img src="./img/xftp.png" alt="图片"></p>
-<p>填写好消息后点击连接。</p>
-<ol start="3">
-<li>nginx下载</li>
-</ol>
-<p>官方网址:<a href="http://nginx.org/en/download.html" target="_blank" rel="noopener">http://nginx.org/en/download.html</a></p>
-<p><img src="./img/nginx.jpg" alt="图片"></p>
-<ul>
-<li>启动Nginx</li>
-</ul>
-<p><code>start nginx</code></p>
-<p>启动成功后，浏览器访问 localhost,即可看到Nginx 欢迎页</p>
-<p><img src="./img/nginx1.png" alt="图片"></p>
-<ul>
-<li>Nginx 常用命令</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在安装Nginx的目录下打开命令行运行</span></span><br><span class="line">nginx -h	         查看帮助信息</span><br><span class="line">nginx -v	         查看Nginx版本</span><br><span class="line"></span><br><span class="line">start nginx          启动</span><br><span class="line">nginx -s stop	     停用Nginx</span><br><span class="line">nginx -s quit	     优雅的停用Nginx（处理完正在进行中请求后停用）</span><br><span class="line"></span><br><span class="line">nginx -s reload	      重新加载配置，并优雅的重启进程</span><br><span class="line">nginx -s reopen	      重启日志文件</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
-<li>将项目部署到服务器</li>
-</ol>
-<p>在xftp中进入如下目录：</p>
-<p><img src="./img/nginx2.jpg" alt="图片"></p>
-<p>在这个文件夹里新建一个文件夹，把它原有的这些文件放进去，注意不要选中那个..的文件夹，然后把之前本地打好的dist 包底下的内容放到这个html的文件夹里。</p>
-<p>dist 文件夹不要了，html 下直接是你打好包的 index.html，以后打完包就直接替换这些文件就好了。</p>
-<p><img src="./img/nginx3.png" alt="图片"></p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/10/09/nginx和xshell的使用/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
