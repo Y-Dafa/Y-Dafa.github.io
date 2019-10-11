@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[first]]></title>
+    <url>%2F2019%2F10%2F11%2Ffirst%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Nginx和Xshell的使用]]></title>
     <url>%2F2019%2F10%2F09%2Fnginx%E5%92%8Cxshell%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
     <content type="text"><![CDATA[服务器部署静态资源（通过nginx反向代理）此处使用xshell与xftp组合连接本地与服务器，下载、安装xshell，xftp： https://www.netsarang.com/zh/xshell/ 这两个为付费软件，如果是自己使用可以下载破解版或选择家庭和学校用户的免费授权版。下载后进行一键式安装。 打开xshell创建连接： 填写好消息后点击连接。 打开Xftp 填写好消息后点击连接。 nginx下载 官方网址:http://nginx.org/en/download.html 启动Nginx start nginx 启动成功后，浏览器访问 localhost,即可看到Nginx 欢迎页 Nginx 常用命令 12345678910//在安装Nginx的目录下打开命令行运行nginx -h 查看帮助信息nginx -v 查看Nginx版本start nginx 启动nginx -s stop 停用Nginxnginx -s quit 优雅的停用Nginx（处理完正在进行中请求后停用）nginx -s reload 重新加载配置，并优雅的重启进程nginx -s reopen 重启日志文件 将项目部署到服务器 在xftp中进入如下目录： 在这个文件夹里新建一个文件夹，把它原有的这些文件放进去，注意不要选中那个..的文件夹，然后把之前本地打好的dist 包底下的内容放到这个html的文件夹里。 dist 文件夹不要了，html 下直接是你打好包的 index.html，以后打完包就直接替换这些文件就好了。]]></content>
