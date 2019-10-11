@@ -4,6 +4,12 @@
     <title><![CDATA[first]]></title>
     <url>%2F2019%2F10%2F11%2Ffirst%2F</url>
     <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>react</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Nginx和Xshell的使用]]></title>
